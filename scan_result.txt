@@ -1,0 +1,30 @@
+# Nmap 7.97 scan initiated Mon Jun 23 12:02:02 2025 as: nmap -sS -oN scan_result.txt 192.168.1.0/24
+Nmap scan report for 192.168.1.1
+Host is up (0.011s latency).
+Not shown: 993 closed tcp ports (reset)
+PORT    STATE    SERVICE
+21/tcp  open     ftp
+23/tcp  filtered telnet
+53/tcp  open     domain
+80/tcp  open     http
+139/tcp filtered netbios-ssn
+443/tcp open     https
+445/tcp filtered microsoft-ds
+MAC Address: 8C:C7:C3:B6:3D:69 (Netlink ICT)
+
+Nmap scan report for 192.168.1.36
+Host is up (0.0070s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT     STATE    SERVICE
+5060/tcp filtered sip
+MAC Address: 7E:58:6C:2D:C7:EB (Unknown)
+
+Nmap scan report for 192.168.1.33
+Host is up (0.00096s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT    STATE SERVICE
+135/tcp open  msrpc
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+
+# Nmap done at Mon Jun 23 12:02:39 2025 -- 256 IP addresses (3 hosts up) scanned in 37.54 seconds
